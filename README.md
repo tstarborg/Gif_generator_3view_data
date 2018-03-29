@@ -21,4 +21,13 @@ The script copies the sub folders from the first folder examined (re-generating 
 It then works through all of the sub-folders recursively to generate a gif per sub-folder (and sub-sub etc).
 It also generates one gif-information files per user folder.
 
-Hopefully the comments in the gif 
+Hopefully the comments in the gif will help you to understand how the file works.
+
+I've actually found that the script works better headless for larger folder structures.
+However I've not worked out how to pass the folder paths (input and output) into the program, so there are instructions at the 
+end to change the script to run with specific folder paths.
+
+In the end I've realised taht I should probably have done this in Python, but after spending this long and getting it to work
+I've decided to leave it as is as I don't need more changes.
+
+
