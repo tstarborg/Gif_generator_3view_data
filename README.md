@@ -31,3 +31,5 @@ In the end I've realised taht I should probably have done this in Python, but af
 I've decided to leave it as is as I don't need more changes.
 
 
+I don't expect anything bad to happen when you run this script, but with any file creation/deletion (the script removes temporary files as it goes) there is a chance that it runs in a way that I did not expect.
+Please use this script carefully and do not output into the folder that you are reading out of...
